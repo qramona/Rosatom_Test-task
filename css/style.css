@@ -1,0 +1,33 @@
+body{
+    background: aliceblue;
+}
+.todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+input{
+    outline: none;
+    border: none;
+    border-bottom: solid 1px gray;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    text-wrap: nowrap;
+}
+
+button{
+    border: none;
+    background: lightgray;
+    border-radius: 4px;
+    margin: 0.2rem 0;
+}
